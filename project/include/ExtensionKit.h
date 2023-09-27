@@ -9,6 +9,7 @@ namespace extensionkit
         CEND,
         CSTRING,
         CINT,
+        CBOOL,
         CDOUBLE
     };
 

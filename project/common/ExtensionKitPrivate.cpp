@@ -58,6 +58,10 @@ namespace extensionkit
 						val_array_push(ar, alloc_int(va_arg(params, int)));
 						break;
 
+					case CBOOL:
+                        val_array_push(ar, alloc_bool(va_arg(params, bool)));
+                        break;
+
 					case CDOUBLE:
 						val_array_push(ar, alloc_float(va_arg(params, double)));
 						break;
